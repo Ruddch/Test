@@ -70,10 +70,16 @@ ul, li {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	line-height: 60px;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px #000;
 }
-.item-list li .rest-timer {
-	vertical-align: middle;
+.item-list li .rest-timer span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
